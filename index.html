@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Tok Connect</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto Slab', serif;
+            background-color: black;
+        }
+        /* Hero section styling */
+        .hero {
+            background: url('assets/bgimg.png') no-repeat center center;
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Roboto Slab', serif;
+        }
+        .hero-heading {
+            background: rgba(255, 255, 255, 0);
+            border-radius: 15px;
+            padding: 2rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+            color: #fdfdfd;
+            font-weight: 700;
+            font-size: 4rem;
+            text-align: center;
+        }
+        /* Gradient backdrop for the navbar */
+        .navbar-backdrop {
+            background-image: linear-gradient(135deg, #fa709a 10%, #fee140 100%);
+            padding: 0.5rem;
+        }
+        /* Semi-transparent nav container */
+        .nav-container {
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 0.5rem;
+        }
+        .navbar-brand img {
+            height: 40px;
+            margin-right: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Section -->
+    <header class="navbar-backdrop">
+        <nav class="navbar navbar-expand-lg nav-container">
+            <div class="container-fluid">
+                <a class="navbar-brand d-flex align-items-center" href="./index.html">
+                    <img src="assets/T (2).png" alt="TechTokConnect logo">
+                    TechTokConnect
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" 
+                        aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Videos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Latest News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" tabindex="-1" aria-disabled="true">Community</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-warning" type="submit" style="background-image: linear-gradient(45deg, #ff4e00, #ffd000); color: white; border: none;">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1 class="hero-heading" style="font-size: 120px; user-select: none; /* Standard syntax */
+        -webkit-user-select: none; /* Safari */
+        -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */;">
+            Tech Tok<br>Connect
+        </h1>
+    </section>
+    <div class="d-flex justify-content-center mt-3">
+        <button type="button" class="btn" style="background-image: linear-gradient(45deg, #ff4e00, #ff69b4, #ffd000); color: white; border:none; margin: 1%;padding: 1%; width: 150px;">
+            <a href="edit.html" style="color: white; text-decoration: none;">Move to Blogs</a>
+        </button>
+    </div>
+    <!-- Bootstrap JS Dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>
